@@ -70,5 +70,5 @@ module.exports = {
   getProduct,
   createProduct,
   updateProduct,
-  deleteProduct,
+  deleteProduct
 };
