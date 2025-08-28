@@ -50,6 +50,7 @@
 # Database Setup: 
 - Includes setting up a free-tier database on MongoDB Atlas, creating users, configuring IP access, and obtaining the connection string.
 - In summary, this project building a complete backend API based on Node.js, Express, and MongoDB, learning how to organize code, test APIs, and deploy the project to a version control system.
+   ![MongoDB_data](/images/MongoDB_data.jpg)
 </details>
 
 <details>
