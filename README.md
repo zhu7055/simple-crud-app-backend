@@ -54,7 +54,7 @@
 ## 建立產品 (Create)：
   - 透過 POST /api/products 路由，將產品資料（例如名稱、數量、價格、圖片）儲存在 MongoDB 資料庫中。
 
-    <img width="1918" height="1016" alt="image" src="https://github.com/user-attachments/assets/d5cb01b9-fd50-42be-b976-2382183e9244" />
+![createProduct](/images/createProduct.png)
 ## 讀取產品 (Read)：
   - 透過 GET /api/products 路由從資料庫中檢索所有產品清單。
     <img width="1918" height="1018" alt="image" src="https://github.com/user-attachments/assets/e1861edb-3375-4eb0-9ee2-67686f9189f8" />
