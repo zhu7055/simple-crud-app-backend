@@ -39,7 +39,7 @@
     - Routes: Define paths for different API endpoints and direct them to corresponding controller functions.
        ![route_encodedURL](/images/route_encodedURL.png)
     - Controllers: Contain the actual business logic for handling specific API requests, such as how to create, read, update, or delete data from the database.
-      ![deleteProduct](/images/deleteProduct.pmg)
+      ![deleteProduct](/images/deleteProduct.png)
       ![deletedProduct](/images/deletedProduct.png)
 # Development and Testing Tools: 
 - Uses various tools to aid development and testing:
@@ -90,7 +90,7 @@
   - 路由：定義不同 API 端點的路徑，並將其導向對應的控制器函數。
     ![route_encodedURL](/images/route_encodedURL.png)
   - 控制器：包含處理特定 API 要求的實際業務邏輯，例如如何在資料庫中建立、讀取、更新或刪除資料。
-    ![deleteProduct](/images/deleteProduct.pmg)
+    ![deleteProduct](/images/deleteProduct.png)
     ![deletedProduct](/images/deletedProduct.png)
     
 # 開發和測試工具：
