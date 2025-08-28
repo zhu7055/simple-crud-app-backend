@@ -68,6 +68,8 @@
   <img width="1918" height="1017" alt="image" src="https://github.com/user-attachments/assets/3c1bb987-1e61-4644-b9fc-bc8a53282deb" />
 ## 刪除產品 (Delete)：
   - 透過 DELETE /api/product/:id 路由，根據產品 ID 從資料庫中刪除特定產品。
+    <img width="1918" height="1016" alt="image" src="https://github.com/user-attachments/assets/5a3f686c-db0e-4695-b17b-0bb2b5efe646" />
+    <img width="1918" height="1017" alt="image" src="https://github.com/user-attachments/assets/d4bf34cd-1588-406c-a1af-5dda54ee7841" />
   - 專案結構和實踐：為了增強程式碼的可維護性和組織性，該專案強調將 API 邏輯分解為不同的元件：
   - 模型：定義資料庫中產品資料的結構（Schema），例如產品名稱、數量、價格和圖片等欄位。
   - 路由：定義不同 API 端點的路徑，並將其導向對應的控制器函數。
