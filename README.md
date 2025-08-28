@@ -71,8 +71,8 @@
   ![updateProduct_2](/images/updateProduct_2.png)
 ## 刪除產品 (Delete)：
   - 透過 DELETE /api/product/:id 路由，根據產品 ID 從資料庫中刪除特定產品。
-    ![updateProduct](/images/updateProduct.png)
-    ![updateProduct_2](/images/updateProduct_2.png)
+    ![deleteProduct](/images/deleteProduct.png)
+    ![deletedProduct_2](/images/deletedProduct_2.png)
   - 專案結構和實踐：為了增強程式碼的可維護性和組織性，該專案強調將 API 邏輯分解為不同的元件：
   - 模型：定義資料庫中產品資料的結構（Schema），例如產品名稱、數量、價格和圖片等欄位。
   - 路由：定義不同 API 端點的路徑，並將其導向對應的控制器函數。
