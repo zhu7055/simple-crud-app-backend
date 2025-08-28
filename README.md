@@ -40,7 +40,8 @@
 
 <details>
   <summary>中文</summary>
-  - 本專案用於後端開發，旨在建立完整的 RESTful CRUD API。
+  
+- 本專案用於後端開發，旨在建立完整的 RESTful CRUD API。
 
 - 本專案主要使用以下技術：
 
