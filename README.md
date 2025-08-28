@@ -22,7 +22,7 @@
   ## Read Products (Read):
     - Retrieve a list of all products from the database via the GET /api/products route.
       ![getProducts](/images/getProducts.png)
-      ![getProduct_browser](/images/getProduct_browser.png)
+      ![getProducts_browser](/images/getProducts_browser.png)
     - Retrieve detailed information for a single product based on its unique ID via the GET /api/product/:id route.
       ![getProduct](/images/getProduct.png)
     ![getProduct_browser](/images/getProduct_browser.png)
@@ -72,7 +72,7 @@
 ## 讀取產品 (Read)：
   - 透過 GET /api/products 路由從資料庫中檢索所有產品清單。
     ![getProducts](/images/getProducts.png)
-    ![getProduct_browser](/images/getProduct_browser.png)
+    ![getProducts_browser](/images/getProducts_browser.png)
   - 透過 GET /api/product/:id 路由，根據產品的唯一 ID 檢索單一產品的詳細資訊。
     ![getProduct](/images/getProduct.png)
     ![getProduct_browser](/images/getProduct_browser.png)
