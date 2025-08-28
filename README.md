@@ -52,17 +52,29 @@
   - 此專案的核心是實現產品的基本資料操作，包括建立、讀取、更新和刪除。
 ## 建立產品 (Create)：
   - 透過 POST /api/products 路由，將產品資料（例如名稱、數量、價格、圖片）儲存在 MongoDB 資料庫中。
+
+    <img width="1918" height="1016" alt="image" src="https://github.com/user-attachments/assets/d5cb01b9-fd50-42be-b976-2382183e9244" />
 ## 讀取產品 (Read)：
   - 透過 GET /api/products 路由從資料庫中檢索所有產品清單。
+    <img width="1918" height="1018" alt="image" src="https://github.com/user-attachments/assets/e1861edb-3375-4eb0-9ee2-67686f9189f8" />
+    <img width="1772" height="823" alt="image" src="https://github.com/user-attachments/assets/eb44e678-60c0-4aef-92d3-78a3730b8e02" />
   - 透過 GET /api/product/:id 路由，根據產品的唯一 ID 檢索單一產品的詳細資訊。
+    <img width="1760" height="361" alt="image" src="https://github.com/user-attachments/assets/20345c2b-5dd6-4115-93d7-fc0c6a0e3d34" />
+    <img width="1918" height="1017" alt="image" src="https://github.com/user-attachments/assets/c9d80bc3-9878-4bc7-98bc-a67cbdbc37c6" />
+
 ## 更新產品 (Update)：
 - 透過 PUT /api/product/:id 路由，根據產品 ID 更新現有產品的資訊。
+  <img width="1918" height="1017" alt="image" src="https://github.com/user-attachments/assets/c8422163-3867-4a92-adbd-034427f854cd" />
+  <img width="1918" height="1017" alt="image" src="https://github.com/user-attachments/assets/3c1bb987-1e61-4644-b9fc-bc8a53282deb" />
 ## 刪除產品 (Delete)：
   - 透過 DELETE /api/product/:id 路由，根據產品 ID 從資料庫中刪除特定產品。
   - 專案結構和實踐：為了增強程式碼的可維護性和組織性，該專案強調將 API 邏輯分解為不同的元件：
   - 模型：定義資料庫中產品資料的結構（Schema），例如產品名稱、數量、價格和圖片等欄位。
   - 路由：定義不同 API 端點的路徑，並將其導向對應的控制器函數。
+    <img width="1918" height="1017" alt="image" src="https://github.com/user-attachments/assets/a7d60aba-afdd-45e5-a4f8-7671e1029756" />
   - 控制器：包含處理特定 API 要求的實際業務邏輯，例如如何在資料庫中建立、讀取、更新或刪除資料。
+    <img width="1918" height="1016" alt="image" src="https://github.com/user-attachments/assets/5a3f686c-db0e-4695-b17b-0bb2b5efe646" />
+    <img width="1918" height="1017" alt="image" src="https://github.com/user-attachments/assets/d4bf34cd-1588-406c-a1af-5dda54ee7841" />
 # 開發和測試工具：
   - 使用各種輔助開發和測試的工具：
   - Visual Studio Code：作為程式碼編輯器。
