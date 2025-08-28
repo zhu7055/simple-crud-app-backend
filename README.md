@@ -21,15 +21,26 @@
     ![createProduct](/images/createProduct.png)
   ## Read Products (Read):
     - Retrieve a list of all products from the database via the GET /api/products route.
+      ![getProducts](/images/getProducts.png)
+      ![getProduct_browser](/images/getProduct_browser.png)
     - Retrieve detailed information for a single product based on its unique ID via the GET /api/product/:id route.
+      ![getProduct](/images/getProduct.png)
+    ![getProduct_browser](/images/getProduct_browser.png)
   ## Update Product (Update):
     - Update information for an existing product based on its ID via the PUT /api/product/:id route.
+      ![updateProduct](/images/updateProduct.png)
+      ![updateProduct_2](/images/updateProduct_2.png)
   ## Delete Product (Delete):
     - Remove a specific product from the database based on its ID via the DELETE /api/product/:id route.
+      ![deleteProduct](/images/deleteProduct.png)
+      ![deletedProduct](/images/deletedProduct.png)
     - Project Structure and Practices: To enhance code maintainability and organization, the project emphasizes breaking down API logic into different components:
     - Models: Define the structure (Schema) of product data in the database, such as fields for product name, quantity, price, and image.
     - Routes: Define paths for different API endpoints and direct them to corresponding controller functions.
+       ![route_encodedURL](/images/route_encodedURL.png)
     - Controllers: Contain the actual business logic for handling specific API requests, such as how to create, read, update, or delete data from the database.
+      ![deleteProduct](/images/deleteProduct.pmg)
+      ![deletedProduct](/images/deletedProduct.png)
 # Development and Testing Tools: 
 - Uses various tools to aid development and testing:
     - Visual Studio Code: As the code editor.
@@ -56,10 +67,10 @@
 ## 建立產品 (Create)：
   - 透過 POST /api/products 路由，將產品資料（例如名稱、數量、價格、圖片）儲存在 MongoDB 資料庫中。
 
-![createProduct](/images/createProduct.png)
+  ![createProduct](/images/createProduct.png)
 ## 讀取產品 (Read)：
   - 透過 GET /api/products 路由從資料庫中檢索所有產品清單。
-    ![getProducts](/images/getProducts)
+    ![getProducts](/images/getProducts.png)
     ![getProduct_browser](/images/getProduct_browser.png)
   - 透過 GET /api/product/:id 路由，根據產品的唯一 ID 檢索單一產品的詳細資訊。
     ![getProduct](/images/getProduct.png)
@@ -90,4 +101,5 @@
 # 資料庫設定：
   - 包括在 MongoDB Atlas 上設定免費資料庫、建立使用者、設定 IP 存取以及取得連接字串。
   - 總結來說，本專案基於 Node.js、Express 和 MongoDB 建立了一個完整的後端 API，學習如何組織程式碼、測試 API 以及將專案部署到版本控制系統。
+    ![MongoDB_data](/images/MongoDB_data.jpg)
 </details>
