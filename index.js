@@ -96,7 +96,7 @@ app.delete("/api/products/:id", async (req, res) => {
 //連接到MongoDB資料庫
 mongoose
   .connect(
-    "<MongoDB連接字串>"
+    "<MongoDB connection string and password>"
   )
   .then(() => {
     console.log("Connected to database!");
