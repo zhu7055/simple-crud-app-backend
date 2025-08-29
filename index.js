@@ -96,7 +96,7 @@ app.delete("/api/products/:id", async (req, res) => {
 //連接到MongoDB資料庫
 mongoose
   .connect(
-    "mongodb+srv://judy18258:B1IvYskVlyzQCyN4@backenddb.muouf04.mongodb.net/Node-API?retryWrites=true&w=majority&appName=BackendDB"
+    ""
   )
   .then(() => {
     console.log("Connected to database!");
